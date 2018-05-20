@@ -3,7 +3,7 @@ using GreyCloud.Model.Model;
 
 namespace GreyCloud.Data.Repositories
 {
-    public interface IOrderRepository
+    public interface IOrderRepository : IRepository<Order>
     {
     }
 

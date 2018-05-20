@@ -3,7 +3,7 @@ using GreyCloud.Model.Model;
 
 namespace GreyCloud.Data.Repositories
 {
-    public interface IPostTagRepository
+    public interface IPostTagRepository : IRepository<PostTag>
     {
     }
 

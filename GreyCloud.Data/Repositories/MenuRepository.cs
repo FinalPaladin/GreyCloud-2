@@ -3,7 +3,7 @@ using GreyCloud.Model.Model;
 
 namespace GreyCloud.Data.Repositories
 {
-    public interface IMenuRepository
+    public interface IMenuRepository : IRepository<Menu>
     {
     }
 

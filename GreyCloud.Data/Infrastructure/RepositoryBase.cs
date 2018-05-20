@@ -45,6 +45,12 @@ namespace GreyCloud.Data.Infrastructure
             dataContext.Entry(entity).State = EntityState.Modified;
         }
 
+        public virtual void Delete(int Id)
+        {
+            var entity = dbSet.Find(Id);
+            dbSet.Remove(entity);
+        }
+
         public virtual void Delete(T entity)
         {
             dbSet.Remove(entity);
