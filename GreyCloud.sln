@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreyCloud.Common", "GreyCloud.Common\GreyCloud.Common.csproj", "{10B8A0AC-A3F9-4E71-A12A-63968F6A033C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreyCloud.Data", "GreyCloud.Data\GreyCloud.Data.csproj", "{EC8A09F8-4E0B-4B4C-B9EC-CFD98546E978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreyCloud.Model", "GreyCloud.Model\GreyCloud.Model.csproj", "{E35AF5EF-8371-4A67-B0AC-B395F9112DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreyCloud.Service", "GreyCloud.Service\GreyCloud.Service.csproj", "{121CCA91-418B-4A97-A7D5-91A44694E370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreyCloud.Web", "GreyCloud.Web\GreyCloud.Web.csproj", "{B89C584D-EB29-492F-9AF7-95A96E4B459A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreyCloud.UnitTest", "GreyCloud.UnitTest\GreyCloud.UnitTest.csproj", "{9FE80D41-C2A9-4241-8E5F-D6359DA5E2DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10B8A0AC-A3F9-4E71-A12A-63968F6A033C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B8A0AC-A3F9-4E71-A12A-63968F6A033C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B8A0AC-A3F9-4E71-A12A-63968F6A033C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B8A0AC-A3F9-4E71-A12A-63968F6A033C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8A09F8-4E0B-4B4C-B9EC-CFD98546E978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8A09F8-4E0B-4B4C-B9EC-CFD98546E978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8A09F8-4E0B-4B4C-B9EC-CFD98546E978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8A09F8-4E0B-4B4C-B9EC-CFD98546E978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35AF5EF-8371-4A67-B0AC-B395F9112DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35AF5EF-8371-4A67-B0AC-B395F9112DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35AF5EF-8371-4A67-B0AC-B395F9112DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35AF5EF-8371-4A67-B0AC-B395F9112DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{121CCA91-418B-4A97-A7D5-91A44694E370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121CCA91-418B-4A97-A7D5-91A44694E370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121CCA91-418B-4A97-A7D5-91A44694E370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121CCA91-418B-4A97-A7D5-91A44694E370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89C584D-EB29-492F-9AF7-95A96E4B459A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89C584D-EB29-492F-9AF7-95A96E4B459A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89C584D-EB29-492F-9AF7-95A96E4B459A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89C584D-EB29-492F-9AF7-95A96E4B459A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE80D41-C2A9-4241-8E5F-D6359DA5E2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE80D41-C2A9-4241-8E5F-D6359DA5E2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE80D41-C2A9-4241-8E5F-D6359DA5E2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE80D41-C2A9-4241-8E5F-D6359DA5E2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87CBE2C4-318B-45F7-BF04-4AC40410AE5E}
+	EndGlobalSection
+EndGlobal
